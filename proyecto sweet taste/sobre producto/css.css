@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    background-color: #FFA500; 
+    color: #000; 
+    text-align: center; 
+    padding: 140px; 
+    font-size: 5em; 
+    margin-top: 0; 
+    font-weight: bold;
+}
+
+#sobre-nuestro-producto p {
+    font-size: 1.1em; 
+    margin-top: 10px; 
+    margin-bottom: 30px; 
+    margin-left: 200px; 
+    margin-right: 200px
+}
+
+.two-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.two-box .box-img1, .two-box .box-img2 {
+  width: 520px;
+  height: 300px;
+  position: relative;
+  overflow: hidden; 
+}
+
+.two-box .box-img1 img,
+.two-box .box-img2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+
+.two-box .box-img1:hover, .two-box .box-img2:hover {
+  transform: scale(1.05); 
+  transition: transform 0.3s ease; 
+}
+
+#menu {
+    display: flex;
+    background-color: #000;
+    height: 120px;
+    color: white;
+    padding: 0 20px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    justify-content: center;
+}
+
+#menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    margin: 0 30px;
+}
+
+#menu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-weight: bold;
+}
+
+#menu ul li a:hover {
+    transform: translateY(3px);
+    background-color: #FFA500;
+}
+
+table {
+    width: 90%;
+    margin: 60px auto; /* Centra la tabla y agrega margen */
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para un efecto más bonito */
+    border-radius: 15px; /* Bordes redondeados */
+    overflow: hidden; /* Para que los bordes redondeados funcionen */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #FFA500; /* Color de fondo verde */
+    color: black;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table:first-of-type tr:last-child td {
+    background-color: #FFa500; /* Color de fondo para la última fila */
+    font-weight: bold; /* Resalta el texto */
+}
+
+tr:hover {
+    background-color: #e2f7e2; /* Color de fondo al pasar el cursor */
+}
+
+h2 { 
+    color: #000; 
+    text-align: center; 
+    font-size: 70px; 
+    margin-top: 60px; 
+    font-weight: bold;
+}
+
+h3 { 
+    color: #FFA500;
+    background-color: #000; 
+    text-align: center; 
+    font-size: 80px; 
+    margin-top: 60px; 
+    font-weight: bold;
+}
+
+.gif {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.gif .gif1, .gif .gif2 {
+  width: 520px;
+  height: 300px;
+  position: relative;
+  overflow: hidden; 
+}
+
+.gif .gif1 img,
+.gif .gif2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+
+footer {
+    background-color: #FFA500;
+    color: black;
+    padding: 40px;
+    font-size: 22px;
+    text-align: center;
+}
